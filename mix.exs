@@ -1,7 +1,7 @@
 defmodule ExVCR.Mixfile do
   use Mix.Project
 
-  @source_url "https://github.com/parroty/exvcr"
+  @source_url "https://github.com/Two-Front/exvcr"
   @version "0.13.2"
 
   def project do
@@ -40,18 +40,16 @@ defmodule ExVCR.Mixfile do
 
   defp description do
     """
+    (Fork of the original ExVCR; Work aroudn for JSX dependency)
     HTTP request/response recording library for elixir, inspired by VCR.
     """
   end
 
   defp package do
     [
-      maintainers: ["parroty"],
-      licenses: ["MIT"],
-      links: %{
-        "GitHub" => @source_url,
-        "Changelog" => "#{@source_url}/blob/master/CHANGELOG.md"
-      }
+      maintainers: ["aditya7iyengar"],
+      organization: "two_front",
+      licenses: ["Two Front"]
     ]
   end
 
